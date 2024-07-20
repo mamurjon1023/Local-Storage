@@ -9,7 +9,7 @@ button1.addEventListener("click", function (event) {
     event.preventDefault();
 
     localStorage.setItem("username", username.value);
-    localStorage.getItem("password", password.value);
+    localStorage.setItem("password", password.value);
 
     username.value = "";
     password.value = "";
